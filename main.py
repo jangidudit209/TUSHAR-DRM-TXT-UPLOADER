@@ -142,7 +142,7 @@ random_image_url = random.choice(image_urls)
 caption = (
         "**ʜᴇʟʟᴏ👋**\n\n"
         "➠ **ɪ ᴀᴍ ᴛxᴛ ᴛᴏ ᴠɪᴅᴇᴏ ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ.**\n"
-        "➠ **ғᴏʀ ᴜsᴇ ᴍᴇ sᴇɴᴅ /Adiitya.\n"
+        "➠ **ғᴏʀ ᴜsᴇ ᴍᴇ sᴇɴᴅ /Aditya.\n"
         "➠ **ғᴏʀ ɢᴜɪᴅᴇ sᴇɴᴅ /help."
 )
     
@@ -185,7 +185,7 @@ async def help_command(client: Client, msg: Message):
         "`/stop` - Stop ongoing process🛑\n\n"
         "`/sudo add` - Add user or group or channel (owner)🎊\n\n"
         "`/sudo remove` - Remove user or group or channel (owner)❌\n\n"
-        "`/userlist2` - List of sudo user or group or channel📜\n\n"  
+        "`/userlist` - List of sudo user or group or channel📜\n\n"  
     )
     await msg.reply_text(help_text)
 
