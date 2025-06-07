@@ -105,7 +105,7 @@ async def sudo_command(bot: Client, message: Message):
 keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🇮🇳ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ🇮🇳" ,url=f"https://t.me/Itsxadiii") ],
+                    InlineKeyboardButton("🇮🇳ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ🇮🇳" ,url=f"https://t.me/Maisamyahu") ],
                     [
                     InlineKeyboardButton("🔔ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🔔" ,url="https://t.me/Medicoarmy") ],
                     [
@@ -142,7 +142,7 @@ random_image_url = random.choice(image_urls)
 caption = (
         "**ʜᴇʟʟᴏ👋**\n\n"
         "➠ **ɪ ᴀᴍ ᴛxᴛ ᴛᴏ ᴠɪᴅᴇᴏ ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ.**\n"
-        "➠ **ғᴏʀ ᴜsᴇ ᴍᴇ sᴇɴᴅ /Aditya.\n"
+        "➠ **ғᴏʀ ᴜsᴇ ᴍᴇ sᴇɴᴅ /txt.\n"
         "➠ **ғᴏʀ ɢᴜɪᴅᴇ sᴇɴᴅ /help."
 )
     
@@ -180,7 +180,7 @@ async def list_users(client: Client, msg: Message):
 async def help_command(client: Client, msg: Message):
     help_text = (
         "`/start` - Start the bot⚡\n\n"
-        "`/Aditya` or `/upload` - Download and upload files (sudo)🎬\n\n"
+        "`/txt` or `/upload` - Download and upload files (sudo)🎬\n\n"
         "`/restart` - Restart the bot🔮\n\n" 
         "`/stop` - Stop ongoing process🛑\n\n"
         "`/sudo add` - Add user or group or channel (owner)🎊\n\n"
