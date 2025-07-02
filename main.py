@@ -48,10 +48,10 @@ async def show_random_emojis(message):
     return emoji_message
     
 # Define the owner's user ID
-OWNER_ID = 6305120550 # Replace with the actual owner's user ID
+OWNER_ID = 1203096654 # Replace with the actual owner's user ID
 
 # List of sudo users (initially empty or pre-populated)
-SUDO_USERS = [7062964338,1368753935]
+SUDO_USERS = [6678172354,1368753935,6305120550]
 
 AUTH_CHANNEL = -1002856485162
 
@@ -287,9 +287,9 @@ async def upload(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     # Default credit message with link
-    credit = "️[Aditya](https://t.me/Itsxadiii)"
+    credit = "️[Unpaired e-](https://t.me/ak_4722)"
     if raw_text3 == '1':
-        CR = '[Aditya]https://t.me/Itsxadiii5)'
+        CR = '[Unpaired e-](https://t.me/ak_4722)'
     elif raw_text3:
         try:
             text, link = raw_text3.split(',')
